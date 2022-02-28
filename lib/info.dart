@@ -1,6 +1,6 @@
 const info = [
   {
-    'name': 'Foo',
+    'name': 'Elon Musk',
     'message': 'Hey, how are you doing?',
     'time': '3:53 pm',
     'profilePic':
@@ -14,7 +14,7 @@ const info = [
         'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg',
   },
   {
-    'name': 'Baz',
+    'name': 'Foo Baz',
     'message': 'Hello, I want to sleep.',
     'time': '1:03 pm',
     'profilePic':

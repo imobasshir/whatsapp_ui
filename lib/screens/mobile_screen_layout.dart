@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:whatsapp_ui/colors.dart';
+import 'package:whatsapp_ui/widgets/contacts_list.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({Key? key}) : super(key: key);
@@ -58,7 +59,7 @@ class MobileScreenLayout extends StatelessWidget {
             ],
           ),
         ),
-        body: const Center(child: Text('This is mobile')),
+        body: const ContactList(),
       ),
     );
   }
